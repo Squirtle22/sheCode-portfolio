@@ -7,17 +7,63 @@
     <title>Deanna Keel</title>
 
     <!-- links to stylesheets -->
+    <link rel="stylesheet" href="/assets/images/img.jpg">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="/assets/images/32x32.ico" alt=""> Deanna Keel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h2>🫶🏻Hi i am</h2>
     <h1>Deanna Keel</h1>
     <h3>WebDeveloper, based in United Kingdom</h3>
-    <div class="links">
+    <div class="links mb-5">
         <a href="about.html#contact" class="contact-me">Contact Me</a>
         <a href="about.html" class="about-me">About Me</a>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/assets/images/waether.png" class="img-fluid rounded border shadow-lg">
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-3">Weather App</h2>
+                <p>
+                    Sky Sense is the ultimate weather app, delivering real-time weather updates and temperature data to
+                    any location worldwide. With its intuitive and user-friendly interface, it's the perfect tool for
+                    staying informed about current weather conditions wherever you are.
+                </p>
+                <div class="mt-5">
+                    <a href="https://squirtleweather.netlify.app/" class="weather-link" target="_blank">Launch App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

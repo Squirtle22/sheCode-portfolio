@@ -7,33 +7,64 @@
     <title>About Deanna Keel</title>
 
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <a href="../index.html" class="homepage">Return to Homepage</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="/assets/images/32x32.ico" alt=""> Deanna Keel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>About Me</h1>
     <h3>WebDeveloper from Wiltshire, UK</h3>
     <div class="bio">
-        <p>Hello, I'm Deanna Keel, a passionate junior web developer on a mission to transition from a rewarding career
+        <p class="rounded-5">Hello, I'm Deanna Keel, a passionate junior web developer on a mission to transition from a rewarding career
             in childcare to the dynamic world of web development.
-            <br>
-            <br>
             My journey into web development began with a desire for a new challenge and a fascination with the endless
             possibilities that the digital world offers. While my background in childcare provided me with valuable
             skills in patience, empathy, and effective communication, I yearned for a career that would allow me to
             blend creativity with problem-solving.
         </p>
-        <p>
-            In my work, I strive for attention to detail, a user-centric mindset, and a commitment to staying up-to-date
-            with the latest web technologies and best practices. I'm a strong believer in continuous learning, and I
-            eagerly embrace challenges as opportunities for growth. Whether it's coding, designing, or troubleshooting,
-            I'm always excited to tackle new projects and expand my horizons.
-        </p>
     </div>
-    <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/assets/images/waether.png" class="img-fluid p-2 shadow-lg rounded">
+            </div>
+            <div class="col-sm-4">
+                <img src="/assets/images/quote.png" class="img-fluid p-2 shadow-lg rounded">
+            </div>
+            <div class="col-sm-4">
+                <img src="/assets/images/cyber.png" class="img-fluid p-2 shadow-lg rounded">
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="mt-5">
         <h2>📧 Contact Me</h2>
         <a href="mailto:admin@squirtle22.co.uk" class="email">admin@squirtle22.co.uk</a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

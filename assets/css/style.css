@@ -120,5 +120,9 @@ p {
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: white;
+    color: #fff;
   } 
+
+  .weather-link:hover {
+    background: var(--secondary-color);
+  }
